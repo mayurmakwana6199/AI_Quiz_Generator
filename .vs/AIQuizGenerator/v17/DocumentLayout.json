@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\generalknowledge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\generalknowledge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\sport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\sport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\math.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\math.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\technology.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\technology.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\science.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\science.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\coding.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\coding.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\geography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\geography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\geography.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\geography.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\coding.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\coding.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\movies.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\movies.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\science.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\science.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\pages\\technology.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\pages\\technology.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|d:\\mayur\\programming\\projects\\aiquizgenerator\\aiquizgenerator\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F520BC5-DB63-4725-943A-E86E72524E54}|AIQuizGenerator\\AIQuizGenerator.csproj|solutionrelative:aiquizgenerator\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Technology.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Technology.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Technology.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Technology.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Technology.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:37.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Controllers\\QuizController.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:32:26.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Services\\GeminiService.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Services\\GeminiService.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Services\\GeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:31:18.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Home.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Home.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Home.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:12:18.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Movies.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Movies.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Movies.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Movies.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Movies.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:31.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Science.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Science.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Science.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Science.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Science.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:35.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AIQuizGenerator\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T13:49:30.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Program.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Program.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:26:40.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Coding.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Coding.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Coding.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Coding.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Coding.cshtml",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:15.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeneralKnowledge.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\GeneralKnowledge.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\GeneralKnowledge.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\GeneralKnowledge.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\GeneralKnowledge.cshtml",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAAAABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:43:49.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sport.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Sport.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Sport.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Sport.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Sport.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T04:56:52.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Math.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Math.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Math.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Math.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Math.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T03:31:31.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Geography.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Geography.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Geography.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Geography.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Geography.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:18.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\History.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\History.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\History.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\History.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:26:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwJ8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T03:27:45.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Geography.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Geography.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Geography.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Geography.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Geography.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:03.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Coding.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Coding.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Coding.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Coding.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Coding.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:20.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "History.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\History.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\History.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\History.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\History.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:30.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Movies.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Movies.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Movies.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Movies.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Movies.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:42.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Science.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Science.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Science.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Science.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Science.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:52.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Technology.cshtml.cs",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Technology.cshtml.cs",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\Pages\\Technology.cshtml.cs",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\Pages\\Technology.cshtml.cs",
+              "RelativeToolTip": "AIQuizGenerator\\Pages\\Technology.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:31:03.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AIQuizGenerator\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAiwJQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-23T11:47:25.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\appsettings.json",
+              "RelativeDocumentMoniker": "AIQuizGenerator\\appsettings.json",
+              "ToolTip": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\appsettings.json",
+              "RelativeToolTip": "AIQuizGenerator\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T13:30:15.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

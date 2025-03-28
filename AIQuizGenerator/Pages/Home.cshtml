@@ -1,0 +1,108 @@
+﻿@page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+    <link rel="stylesheet" href="/css/site.css">
+
+    <style>
+        body {
+            background-color: #08002B;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            overflow: hidden;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        /* Header text - appears first */
+        .welcome-text {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #FFD700; /* Gold color for better visibility */
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        /* Button - hidden initially, appears after 2.5s */
+        .start-btn {
+            background: transparent;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 15px 40px;
+            border: 3px solid #00E0FF; /* Always visible border */
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 30px;
+            position: relative;
+            transition: 0.3s ease-in-out;
+            overflow: hidden;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+            animation-delay: 1s; /* Delay the button appearance */
+        }
+
+        /* Effect: Filling border on hover */
+        .start-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #00E0FF;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease-in-out;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+        .start-btn:hover::before {
+            transform: scaleX(1);
+        }
+
+        .start-btn:hover {
+            color: black;
+        }
+
+        .fade-out {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+        <h1 class="welcome-text">Welcome to the Ultimate Quiz Challenge!</h1>
+        <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <script>
+        function startQuiz() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+
+            document.body.classList.add("fade-out");
+
+            setTimeout(() => {
+                window.location.href = "/Index"; 
+            }, 1000);
+        }
+    </script>
+
+</body>
+</html>

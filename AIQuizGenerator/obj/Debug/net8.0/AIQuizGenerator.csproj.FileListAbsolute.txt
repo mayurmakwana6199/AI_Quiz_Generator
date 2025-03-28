@@ -1,0 +1,74 @@
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.csproj.AssemblyReference.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.AssemblyInfoInputs.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.AssemblyInfo.cs
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.csproj.CoreCompileInputs.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.MvcApplicationPartsAssemblyInfo.cs
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.MvcApplicationPartsAssemblyInfo.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.RazorAssemblyInfo.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.RazorAssemblyInfo.cs
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\appsettings.Development.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\appsettings.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.exe
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.deps.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.runtimeconfig.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.pdb
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\RestSharp.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.AIQuizGenerator.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.build.AIQuizGenerator.props
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AIQuizGenerator.props
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AIQuizGenerator.props
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\scopedcss\bundle\AIQuizGenerator.styles.css
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGe.CDDD226E.Up2Date
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\refint\AIQuizGenerator.dll
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.pdb
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.genruntimeconfig.cache
+D:\Mayur\Programming\c# Proj\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\ref\AIQuizGenerator.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\appsettings.Development.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\appsettings.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.exe
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.deps.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.runtimeconfig.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.pdb
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\RestSharp.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.csproj.AssemblyReference.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.AssemblyInfoInputs.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.AssemblyInfo.cs
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.csproj.CoreCompileInputs.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.MvcApplicationPartsAssemblyInfo.cs
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.MvcApplicationPartsAssemblyInfo.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.RazorAssemblyInfo.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.RazorAssemblyInfo.cs
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.AIQuizGenerator.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.build.AIQuizGenerator.props
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AIQuizGenerator.props
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AIQuizGenerator.props
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\scopedcss\bundle\AIQuizGenerator.styles.css
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGe.CDDD226E.Up2Date
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\refint\AIQuizGenerator.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.pdb
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.genruntimeconfig.cache
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\ref\AIQuizGenerator.dll
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\obj\Debug\net8.0\AIQuizGenerator.sourcelink.json
+D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\bin\Debug\net8.0\AIQuizGenerator.staticwebassets.runtime.json

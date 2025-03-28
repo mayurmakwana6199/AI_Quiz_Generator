@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\coding.jpg",
+      "PackagePath": "staticwebassets\\images\\coding.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\geography.jpg",
+      "PackagePath": "staticwebassets\\images\\geography.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\gk.jpg",
+      "PackagePath": "staticwebassets\\images\\gk.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\history.jpg",
+      "PackagePath": "staticwebassets\\images\\history.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\math.jpg",
+      "PackagePath": "staticwebassets\\images\\math.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\movies.jpg",
+      "PackagePath": "staticwebassets\\images\\movies.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\quiz.jpg",
+      "PackagePath": "staticwebassets\\images\\quiz.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\science.jpg",
+      "PackagePath": "staticwebassets\\images\\science.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\sports.jpg",
+      "PackagePath": "staticwebassets\\images\\sports.jpg"
+    },
+    {
+      "Id": "D:\\Mayur\\Programming\\Projects\\AIQuizGenerator\\AIQuizGenerator\\wwwroot\\images\\technology.jpg",
+      "PackagePath": "staticwebassets\\images\\technology.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AIQuizGenerator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AIQuizGenerator.props",
+      "PackagePath": "build\\AIQuizGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AIQuizGenerator.props",
+      "PackagePath": "buildMultiTargeting\\AIQuizGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AIQuizGenerator.props",
+      "PackagePath": "buildTransitive\\AIQuizGenerator.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

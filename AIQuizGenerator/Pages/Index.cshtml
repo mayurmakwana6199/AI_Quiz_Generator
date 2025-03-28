@@ -1,0 +1,210 @@
+﻿@page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #08002B;
+            color: #ffffff;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            -webkit-background-clip: text;
+            color: transparent;
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: opacity 0.8s ease-in-out 0.3s, transform 0.8s ease-in-out 0.3s;
+        }
+
+        .quiz-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 900px;
+            margin-top: 30px;
+        }
+
+        .quiz-card {
+            width: 280px;
+            height: 150px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            color: #fff;
+            position: relative;
+            border: 3px solid transparent;
+            text-decoration: none;
+            /*transition: background 0.3s ease-in-out, box-shadow 0.2s ease-in-out;*/
+            opacity: 0;
+            transform: translateY(20px);
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+
+            /* Border Colors */
+            .quiz-card.gk {
+                border-color: #ffcc00;
+            }
+
+            .quiz-card.math {
+                border-color: #0099ff;
+            }
+
+            .quiz-card.sports {
+                border-color: #ff0000;
+            }
+
+            .quiz-card.coding {
+                border-color: #ff33cc;
+            }
+
+            .quiz-card.science {
+                border-color: #33ff99;
+            }
+
+            .quiz-card.technology {
+                border-color: #ff9933;
+            }
+
+            .quiz-card.history {
+                border-color: #9966ff;
+            }
+
+            .quiz-card.movies {
+                border-color: #ff6600;
+            }
+
+            .quiz-card.geography {
+                border-color: #66ccff;
+            }
+
+            /* Background Overlay for Text Visibility */
+            .quiz-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                z-index: 1;
+                border-radius: 20px;
+            }
+
+            .quiz-card:hover::before {
+                opacity: 1;
+            }
+
+            /* Text on Hover */
+            .quiz-card:hover {
+                box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+            }
+
+            /* Ensure text is above the overlay */
+            .quiz-card span {
+                position: relative;
+                z-index: 2;
+            }
+    </style>
+</head>
+<body>
+
+    <h1 id="quizTitle">Test Your Knowledge and Have Fun!</h1>
+    <p id="quizSubtitle">Please Select Category!</p>
+
+    <div class="quiz-container">
+        <a href="/GeneralKnowledge" class="quiz-card gk" data-bg="gk.jpg"><span>General Knowledge</span></a>
+        <a href="/Math" class="quiz-card math" data-bg="math.jpg"><span>Math</span></a>
+        <a href="/Sport" class="quiz-card sports" data-bg="sports.jpg"><span>Sports</span></a>
+        <a href="/Coding" class="quiz-card coding" data-bg="coding.jpg"><span>Coding</span></a>
+        <a href="/Science" class="quiz-card science" data-bg="science.jpg"><span>Science</span></a>
+        <a href="/Technology" class="quiz-card technology" data-bg="technology.jpg"><span>Technology</span></a>
+        <a href="/History" class="quiz-card history" data-bg="history.jpg"><span>History</span></a>
+        <a href="/Movies" class="quiz-card movies" data-bg="movies.jpg"><span>Movies</span></a>
+        <a href="/Geography" class="quiz-card geography" data-bg="geography.jpg"><span>Geography</span></a>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Fade in text first
+            $("#quizTitle").css({ opacity: 1, transform: "translateY(0)" });
+            $("#quizSubtitle").css({ opacity: 1, transform: "translateY(0)" });
+
+            // Preload images
+            const images = [
+                "gk.jpg", "math.jpg", "sports.jpg", "coding.jpg", "science.jpg",
+                "technology.jpg", "history.jpg", "movies.jpg", "geography.jpg"
+            ];
+
+            images.forEach(img => {
+                const imgEl = new Image();
+                imgEl.src = "/images/" + img;
+            });
+
+            // Show buttons **after** text transition
+            setTimeout(() => {
+                $(".quiz-card").each(function (index) {
+                    $(this).delay(index * 200).queue(function (next) {
+                        $(this).css({ opacity: 1, transform: "translateY(0)" });
+                        next();
+                    });
+                });
+            }, 800);
+
+            // Change background on hover
+            $(".quiz-card").hover(
+                function () {
+                    let newBg = "/images/" + $(this).attr("data-bg");
+
+                    // Apply background image to the card
+                    $(this).css({
+                        background: `url("${newBg}")`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center"
+                    });
+                },
+                function () {
+                    // Remove background on hover out
+                    $(this).css({ background: "none" });
+                }
+            );
+        });
+    </script>
+
+</body>
+</html>

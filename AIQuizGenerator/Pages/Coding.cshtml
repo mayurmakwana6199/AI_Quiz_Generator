@@ -1,0 +1,269 @@
+﻿@page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="/css/site.css">
+
+    <style>
+        body {
+            background-color: #08002B;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        /* Header */
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 20px;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #00E0FF, #FF00FF);
+            -webkit-background-clip: text;
+            color: transparent;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+
+        /* Quiz Container */
+        #quiz-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 50px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Question */
+        #question-text {
+            font-size: 2rem;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 15px;
+            border: 4px solid #00E0FF;
+            box-shadow: 0 0 15px #00E0FF;
+            opacity: 0;
+            transform: translateY(-10px);
+            animation: fadeIn 0.4s ease-out 0.2s forwards;
+        }
+
+
+        .option-btn-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .option-btn {
+            display: block;
+            width: 90%;
+            padding: 12px;
+            margin: 15px auto;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 15px;
+            text-transform: uppercase;
+            cursor: pointer;
+            position: relative;
+            background: black;
+            color: white; /* Ensuring text remains white */
+            border: 3px solid transparent;
+            transition: all 0.3s ease-in-out;
+        }
+
+            /* Neon Borders for Each Option */
+            .option-btn:nth-child(1) {
+                border-color: #FF8000;
+                box-shadow: 0 0 10px #FF8000;
+            }
+
+            .option-btn:nth-child(2) {
+                border-color: #00FF00;
+                box-shadow: 0 0 10px #00FF00;
+            }
+
+            .option-btn:nth-child(3) {
+                border-color: #00E0FF;
+                box-shadow: 0 0 10px #00E0FF;
+            }
+
+            .option-btn:nth-child(4) {
+                border-color: #FF00FF;
+                box-shadow: 0 0 10px #FF00FF;
+            }
+
+            /* Hover Effect - Glowing Effect */
+            .option-btn:hover {
+                transform: scale(1.05);
+                filter: brightness(1.5);
+            }
+
+                /* Dim Other Buttons When Hovering Over One */
+                .option-btn:hover ~ .option-btn {
+                    filter: brightness(0.5);
+                }
+
+        /* Correct & Incorrect */
+        .correct {
+            background: #28a745 !important;
+            color: white !important;
+            box-shadow: 0 0 20px #28a745 !important;
+        }
+
+        .incorrect {
+            background: #dc3545 !important;
+            color: white !important;
+            box-shadow: 0 0 20px #dc3545 !important;
+        }
+
+        /* Hide Score Initially */
+        #score-container {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #score-display {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #ffcc00;
+            text-shadow: 0 0 10px #ffcc00;
+        }
+
+        /* Animations */
+
+    </style>
+</head>
+<body>
+
+    <h2>Coding Quiz</h2>
+
+    <div id="quiz-container">
+        <h4 id="question-text"></h4>
+        <div id="options-container"></div>
+
+        <!-- Score Display (Hidden Initially) -->
+        <div id="score-container">
+            <h5 id="score-display">
+                Score: <span id="score-value">0</span>
+                <span id="score-change" style="font-size: 1.2rem; margin-left: 10px; font-weight: bold;"></span>
+            </h5>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            fetchQuiz();
+        });
+
+        function fetchQuiz() {
+            let apiUrl = `/api/quiz/generate?category=Coding&numQuestions=10&difficulty=Easy`;
+
+            $.ajax({
+                url: apiUrl,
+                type: "GET",
+                success: function (data) {
+                    processQuizData(data);
+                },
+                error: function (xhr, status, error) {
+                    console.error("API request failed:", error);
+                }
+            });
+        }
+
+        let questionList = [];
+        let currentIndex = 0;
+        let score = 0;
+
+        function processQuizData(quizData) {
+            try {
+                let parsedData = JSON.parse(quizData);
+                let extractedJson = parsedData.candidates[0].content.parts[0].text.replace(/```json\n|\n```/g, "");
+
+                questionList = JSON.parse(extractedJson);
+
+                if (!Array.isArray(questionList) || questionList.length === 0) {
+                    console.error("Invalid or empty questions array");
+                    return;
+                }
+
+                currentIndex = 0;
+                showNextQuestion();
+            } catch (error) {
+                console.error("Error parsing API response:", error);
+            }
+        }
+
+        function showNextQuestion() {
+            if (currentIndex >= questionList.length) {
+                alert("Quiz completed! Refresh to play again.");
+                return;
+            }
+
+            let questionObj = questionList[currentIndex];
+            $("#question-text").text(questionObj.question);
+            $("#options-container").empty();
+
+            questionObj.options.forEach((option) => {
+                let btn = `<button class="option-btn"
+                                                                            data-answer="${option}"
+                                                                            onclick="checkAnswer(this, '${questionObj.answer}')">
+                                                                            ${option}
+                                                                          </button>`;
+                $("#options-container").append(btn);
+            });
+
+            $("#score-container").css("opacity", "0");
+
+            currentIndex++;
+        }
+
+        function checkAnswer(button, correctAnswer) {
+            let selectedAnswer = $(button).data("answer").toString().trim();
+            $(".option-btn").prop("disabled", true);
+
+            let scoreChange = 0;
+            let color = "";
+
+            if (selectedAnswer === correctAnswer) {
+                $(button).addClass("correct");
+                scoreChange = 10;
+                color = "#28a745"; // Green for correct
+            } else {
+                $(button).addClass("incorrect");
+                scoreChange = -5;
+                color = "#dc3545"; // Red for incorrect
+            }
+
+            score += scoreChange;
+
+            // Update score display
+            $("#score-value").text(score);
+
+            // Show score change animation
+            let scoreChangeText = (scoreChange > 0 ? `+${scoreChange}` : `${scoreChange}`);
+            $("#score-change")
+                .text(scoreChangeText)
+                .css({ color: color, opacity: 1 })
+                .animate({ opacity: 0, top: "-10px" }, 1000, function () {
+                    $(this).text("").css("top", "0");
+                });
+
+            $("#score-container").css("opacity", "1");
+
+            setTimeout(showNextQuestion, 800);
+        }
+    </script>
+</body>
+</html>

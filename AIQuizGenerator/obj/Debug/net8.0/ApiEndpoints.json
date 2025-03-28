@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetCodingQuiz",
+    "RelativePath": "api/quiz/coding",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetGeneralKnowledgeQuiz",
+    "RelativePath": "api/quiz/general",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GenerateQuiz",
+    "RelativePath": "api/quiz/generate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numQuestions",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetGeographyQuiz",
+    "RelativePath": "api/quiz/geography",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetHistoryQuiz",
+    "RelativePath": "api/quiz/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetMathQuiz",
+    "RelativePath": "api/quiz/math",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetMoviesQuiz",
+    "RelativePath": "api/quiz/movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetScienceQuiz",
+    "RelativePath": "api/quiz/scince",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetSportQuiz",
+    "RelativePath": "api/quiz/sport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizController",
+    "Method": "GetTechnologyQuiz",
+    "RelativePath": "api/quiz/technology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

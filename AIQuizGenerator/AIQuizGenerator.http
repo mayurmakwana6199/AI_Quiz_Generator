@@ -1,0 +1,6 @@
+@AIQuizGenerator_HostAddress = http://localhost:5057
+
+GET {{AIQuizGenerator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

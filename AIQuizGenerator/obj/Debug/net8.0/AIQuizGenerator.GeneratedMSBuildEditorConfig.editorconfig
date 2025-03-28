@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AIQuizGenerator
+build_property.RootNamespace = AIQuizGenerator
+build_property.ProjectDir = D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Mayur\Programming\Projects\AIQuizGenerator\AIQuizGenerator
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Coding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/GeneralKnowledge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJhbEtub3dsZWRnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Geography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VvZ3JhcGh5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Math.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Movies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Science.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NpZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Sport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mayur/Programming/Projects/AIQuizGenerator/AIQuizGenerator/Pages/Technology.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9neS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
