@@ -1,23 +1,22 @@
-# MCA AWT Project
+# AI Quiz Generator (AWT Project Quiz Wizard)
 
-This repository contains a collection of Java GUI applications created using the **Abstract Window Toolkit (AWT)** as part of the MCA Academic Curriculum. Each application demonstrates practical concepts and components of Java AWT, including frames, panels, layout managers, event handling, menus, dialogs, and more.
+This repository contains a collection of Java GUI applications built using the Abstract Window Toolkit (AWT) as part of the MCA Academic Curriculum. Each demo showcases practical uses of AWT components in building interactive applications.
 
-## Features
+## Languages & Technologies Used
 
-- **Multiple AWT-based Demo Applications**
-- Hands-on examples for various topics:
-  - Basic AWT frames and components
-  - Layout Managers (FlowLayout, BorderLayout, GridLayout, etc.)
-  - Dialogs and Menus
-  - Event handling (ActionListener, WindowListener, etc.)
-  - Custom graphics and drawing
-- Well-organized source code files for each concept
-- Suitable for learning, reference, and academic submission
+- **HTML** (~87.1%) – Used primarily for structuring GUI-related content or documentation.  
+- **C#** (~10.5%) – Likely used alongside AWT-style logic within the demos or project structure.  
+- **CSS** (~2.4%) – Used for styling HTML components.
+
+## Project Overview
+
+- Demonstrates AWT concepts such as frames, panels, layout managers (FlowLayout, BorderLayout, GridLayout, etc.), dialogs, menus, event handling (ActionListener,  WindowListener, etc.), and custom graphics.
+- Well-organized source code files for each concept or mini-project.
+- Ideal for learning AWT fundamentals or academic reference.
 
 ## Project Structure
 
-
-Each `.java` file demonstrates a specific AWT concept or mini-project. Files are named according to their functionality.
+Each `.java` file illustrates a specific AWT concept or example app (e.g., Button demos, Layout manager examples, event-driven dialogs, etc.). The inclusion of HTML and CSS suggests supporting documentation or UI elements.
 
 ## Prerequisites
 
