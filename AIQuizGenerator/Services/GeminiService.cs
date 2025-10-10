@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 public class GeminiService
 {
     private readonly string _apiKey;
-    private const string API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
+    private const string API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
     public GeminiService(IConfiguration configuration)
     {
