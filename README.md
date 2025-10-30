@@ -16,23 +16,47 @@ This repository contains a collection of Java GUI applications built using the A
 
 ## Project Structure
 
-Each `.java` file illustrates a specific AWT concept or example app (e.g., Button demos, Layout manager examples, event-driven dialogs, etc.). The inclusion of HTML and CSS suggests supporting documentation or UI elements.
+/QuizWizard
+/Controllers # ASP.NET Core MVC or API controllers
+/Models # Domain and DTO models
+/Services # AI integration, quiz generation, parsing logic
+/Views # Razor views (if using MVC)
+/wwwroot # JS, CSS, images, client-side code
+/Data # EF Core DbContext & migrations (optional)
+appsettings.json # Configuration (API keys, DB connection strings)
 
 ## Prerequisites
 
-- **Java JDK 8 or above** required
-- Any IDE (Eclipse, IntelliJ IDEA, NetBeans) or simple text editor/terminal
+- .NET SDK (6.0, 7.0, or the target SDK your project uses)  
+- Visual Studio 2022 / 2023 or VS Code with C# extensions  
+- (Optional) SQL Server / LocalDB if using EF Core persistence  
+- AI API credentials (e.g., Google Gemini API key or other provider) — store securely in `appsettings.json` or environment variables
 
 ## How to Run
 
 1. **Clone this repository:**
 git clone https://github.com/mayurmakwana6199/MCA_AWT_Project.git
 
-2. **Compile any demo application:**
-javac <FileName>.java
+2. **Restore dependencies and build:**
+dotnet restore
+dotnet build
 
-3. **Run the application:**
-java <FileName>
+3. **Add your configuration:**
+Put API keys and DB connection strings in appsettings.Development.json or set environment variables.
+Example appsettings.Development.json keys:
+
+{
+  "AIService": {
+    "ApiKey": "API_KEY",
+    "Endpoint": "https://api.example.com/generate"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=QuizWizardDB;Trusted_Connection=True;"
+  }
+}
+
+5. **Run the application:**
+dotnet run
 
 ## Contributing
 
@@ -40,4 +64,4 @@ Pull requests are welcome! If you find issues or want to add more AWT demos/exam
 
 ## License
 
-This project is open-source for educational purposes. Please refer to the [LICENSE](LICENSE) file if available.
+This project is open-source for educational purposes.
